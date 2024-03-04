@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import ExperienceSection from "./pages/ExperienceSection";
+import HeroSection from "./pages/HeroSection";
+import Navbar from "./pages/Navbar";
+import Qualification from "./pages/Qualification";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <div style={{ background: "#F8F9FB" }}>
+        <HeroSection />
+        <ExperienceSection />
+        <Qualification />
+      </div>
     </div>
   );
 }
