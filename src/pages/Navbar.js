@@ -34,11 +34,7 @@ function Navbar() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
-            src="./arjunportfolio/github.svg"
-            alt="github"
-            className="gitStyle"
-          />
+          <img src="./github.svg" alt="github" className="gitStyle" />
         </a>
         <GiHamburgerMenu className="hamburgerIcon" onClick={handleChange} />
         <Menu

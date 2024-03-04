@@ -11,7 +11,7 @@ function ExperienceSection() {
     {
       logo: (
         <img
-          src="./arjunportfolio/boxPay.svg"
+          src="./boxPay.svg"
           alt="companyLogo"
           style={{ height: "200px", width: "300px" }}
         />
@@ -25,7 +25,7 @@ function ExperienceSection() {
     {
       logo: (
         <img
-          src="./arjunportfolio/Prodios.svg"
+          src="./Prodios.svg"
           alt="companyLogo"
           style={{ height: "200px" }}
         />
@@ -38,11 +38,7 @@ function ExperienceSection() {
     },
     {
       logo: (
-        <img
-          src="./arjunportfolio/Xenon.svg"
-          alt="companyLogo"
-          style={{ width: "300px" }}
-        />
+        <img src="./Xenon.svg" alt="companyLogo" style={{ width: "300px" }} />
       ),
       title: "DevOps(Intern) : XenonStack | Chandigarh, India",
       companyName: "XenonStack",
