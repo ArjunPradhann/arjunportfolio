@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/arjunportfolio/static/css/main.03cf8517.css",
-    "main.js": "/arjunportfolio/static/js/main.fccc2355.js",
+    "main.js": "/arjunportfolio/static/js/main.76812f6b.js",
     "static/js/453.19721b92.chunk.js": "/arjunportfolio/static/js/453.19721b92.chunk.js",
     "index.html": "/arjunportfolio/index.html",
     "main.03cf8517.css.map": "/arjunportfolio/static/css/main.03cf8517.css.map",
-    "main.fccc2355.js.map": "/arjunportfolio/static/js/main.fccc2355.js.map",
+    "main.76812f6b.js.map": "/arjunportfolio/static/js/main.76812f6b.js.map",
     "453.19721b92.chunk.js.map": "/arjunportfolio/static/js/453.19721b92.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.03cf8517.css",
-    "static/js/main.fccc2355.js"
+    "static/js/main.76812f6b.js"
   ]
 }
