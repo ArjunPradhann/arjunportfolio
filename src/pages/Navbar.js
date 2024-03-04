@@ -44,7 +44,7 @@ function Navbar() {
         <Menu
           open={open}
           onClose={handleClose}
-          anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
+          anchorOrigin={{ vertical: "top", horizontal: "right" }}
         >
           <MenuItem>Home</MenuItem>
           <MenuItem>Project</MenuItem>
