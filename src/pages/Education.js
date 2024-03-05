@@ -1,4 +1,5 @@
 import React from "react";
+import "../style/Education.css";
 
 function Education() {
   const EducationDetails = [
@@ -16,35 +17,9 @@ function Education() {
     },
   ];
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        margin: "120px 120px",
-      }}
-    >
+    <div className="ExpMain">
       {EducationDetails.map((data, idx) => (
-        <div
-          key={idx}
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-            background: "white",
-            textAlign: "center",
-            margin: "10px",
-            padding: "20px",
-            borderRadius: "16px",
-            height: "200px",
-            width: "50%",
-            fontFamily: "__Inter_aaf875",
-            fontWeight: "400",
-            fontSize: "20px",
-            boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)",
-          }}
-        >
+        <div className="ExpInnerDiv">
           <div>
             <b>{data.course}</b>
           </div>

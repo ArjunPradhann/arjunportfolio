@@ -1,4 +1,5 @@
 import React from "react";
+import "../style/Achievement.css";
 
 function Achievement() {
   const Certification = [
@@ -20,22 +21,9 @@ function Achievement() {
     },
   ];
   return (
-    <div
-      style={{
-        padding: "90px 140px",
-      }}
-    >
+    <div className="AchieveMain">
       {Certification.map((data, idx) => (
-        <div
-          key={idx}
-          style={{
-            marginBottom: "4%",
-            border: "1px solid black",
-            borderRadius: "10px",
-            padding: "10px",
-            width: "fit-content",
-          }}
-        >
+        <div key={idx} className="AchieveInner">
           {data.title}
         </div>
       ))}

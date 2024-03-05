@@ -1,4 +1,5 @@
 import React from "react";
+import "../style/Professional.css";
 
 function ProfessionalSkill() {
   const FrontEndPart = [
@@ -69,9 +70,8 @@ function ProfessionalSkill() {
             <span
               style={{
                 marginTop: "20px",
-                fontFamily: "__Inter_aaf875",
                 fontWeight: "500",
-                fontSize: "25px",
+                fontSize: "24px",
               }}
             >
               {skill.skilsName}
@@ -104,13 +104,7 @@ function ProfessionalSkill() {
   );
 
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "space-evenly",
-        margin: "100px",
-      }}
-    >
+    <div className="ProffMain">
       <div>{renderSkills(FrontEndPart)}</div>
       <div>{renderSkills(BackendPart)}</div>
       <div>{renderSkills(StylingPart)}</div>

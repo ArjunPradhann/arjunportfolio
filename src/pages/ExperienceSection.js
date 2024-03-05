@@ -58,7 +58,9 @@ function ExperienceSection() {
               aria-controls="panel1-content"
               id="panel1-header"
             >
-              <b>{data.companyName}</b>
+              <span style={{ fontSize: "1rem", fontWeight: 500 }}>
+                {data.companyName}
+              </span>
             </AccordionSummary>
             <span style={{ objectFit: "cover" }}>{data.logo}</span>
             <AccordionDetails sx={{ textAlign: "left" }}>

@@ -43,7 +43,7 @@ function HeroSection() {
         <img
           src="./Arjun1.svg"
           alt="ArjunImage"
-          style={{ maxWidth: "100%", maxHeight: "100%", height: "650px" }}
+          style={ { maxWidth: "100%", maxHeight: "100%", height: "650px" }}
         />
       </div>
     </div>

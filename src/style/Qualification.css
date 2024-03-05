@@ -1,9 +1,25 @@
-@media screen and(min-width: 500px) {
-  .QualMain {
+@media screen and (min-width: 500px) {
+  .Qualmain {
+    padding: 0px 80px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+  }
+
+  p {
+    font-size: 1.8rem;
+    font-weight: 500;
   }
 }
+@media screen and (max-width: 500px) {
+  .Qualmain {
+    padding: 0px 24px;
+    justify-content: space-evenly;
+    background-color: white;
+  }
 
-@media screen and(max-width: 500px) {
-  .QualMain {
+  p {
+    font-size: 1.2rem;
+    font-weight: 400;
   }
 }
