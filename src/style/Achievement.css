@@ -1,7 +1,8 @@
-@media screen and (min-width: 500) {
+@media screen and (min-width: 500px) {
   .AchieveMain {
     padding: 90px 140px;
   }
+
   .AchieveInner {
     margin-bottom: 4%;
     border: 1px solid black;
@@ -10,5 +11,17 @@
     width: fit-content;
   }
 }
-@media screen and (max-width: 500) {
+
+@media screen and (max-width: 500px) {
+  .AchieveMain {
+    padding: 10px 22px;
+  }
+
+  .AchieveInner {
+    margin-bottom: 4%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: fit-content;
+  }
 }

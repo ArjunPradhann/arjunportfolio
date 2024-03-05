@@ -4,6 +4,7 @@ import Navbar from "./pages/Navbar";
 import Qualification from "./pages/Qualification";
 import { Provider } from "react-redux";
 import { store } from "./app/store";
+import Resume from "./pages/Resume";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <HeroSection />
           <ExperienceSection />
           <Qualification />
+          <Resume />
         </div>
       </div>
     </Provider>

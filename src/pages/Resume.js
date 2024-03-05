@@ -1,7 +1,5 @@
-"use client";
-import { Box, Modal, Typography } from "@material-ui/core";
-import Image from "next/image";
 import React, { useState } from "react";
+import { Box, Modal } from "@material-ui/core";
 
 function Resume() {
   const style = {
@@ -20,7 +18,7 @@ function Resume() {
   const handleChange = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
-  const pdfUrl = "/Arjun Pradhan.pdf";
+  const pdfUrl = "./Arjun_Pradhan.pdf";
 
   return (
     <div
@@ -30,7 +28,7 @@ function Resume() {
 
       <div
         style={{
-          marginTop: "20px",
+          marginTop: "10px",
         }}
       >
         <div
@@ -39,14 +37,14 @@ function Resume() {
             justifyContent: "center",
           }}
         >
-          <Image
+          <img
             style={{
               border: "1px solid grey",
               padding: "10px",
               borderRadius: "20px",
             }}
             onClick={handleChange}
-            src="/Resume.svg"
+            src="./Resume.svg"
             alt="Resume"
             height={500}
             width={500}
@@ -59,19 +57,17 @@ function Resume() {
           aria-describedby="modal-modal-description"
         >
           <Box sx={style}>
-            <Image src={"/Resume.svg"} alt="Resume" height={700} width={460} />
+            <img src="./arjunportfolio/Resume.png" alt="Resume" />
           </Box>
         </Modal>
         <div style={{ marginTop: "20px" }}>
-          <a href={pdfUrl} download="Arjun Pradhan">
+          <a href={pdfUrl} download="Arjun">
             <button
               style={{
                 padding: "10px 26px",
-                fontSize: "16px",
                 background: "#0066FF",
                 color: "#ffffff",
                 borderRadius: "10px",
-                fontFamily: "__Inter_aaf875",
                 fontWeight: "500",
                 fontSize: "16px",
                 border: "none",
