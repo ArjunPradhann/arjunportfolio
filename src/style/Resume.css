@@ -1,0 +1,39 @@
+@media screen and (min-width: 500px) {
+  .ResumeMainDiv {
+  }
+
+  .ResumeDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ResumeImage {
+    padding: 40px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    height: 500px;
+    width: 500;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .ResumeMainDiv {
+    padding: 0px 20px;
+  }
+
+  .ResumeDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ResumeImage {
+    padding: 40px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    height: 72%;
+    width: 72%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}

@@ -18,9 +18,9 @@ function HeroSection() {
             <Typewriter
               options={{
                 strings: [
-                  "Professional coder",
-                  "FrontEnd Developer",
-                  "BackEnd Developer",
+                  "Professional coder.",
+                  "FrontEnd Developer.",
+                  "BackEnd Developer.",
                 ],
                 autoStart: true,
                 loop: true,
